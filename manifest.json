@@ -1,0 +1,27 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "background": {
+      "page": "bg.html",
+      "persistent": false
+   },
+   "description": "OpenWeather",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "27",
+   "name": "OpenWeather",
+   "offline_enabled": true,
+   "permissions": ["geolocation", "webview", "storage", "unlimitedStorage" ],
+   "sandbox": {
+      "pages": [  ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
