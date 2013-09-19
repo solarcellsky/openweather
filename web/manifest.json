@@ -1,7 +1,12 @@
 {
    "app": {
-      "background": {
-         "scripts": [ "scripts/background.js" ]
+      "launch": {
+         "container": "tab",
+         "web_url": "http://www.playhtml.com/OpenWeather/"
+      },
+      "web_content": {
+         "enabled": true,
+         "origin": "http://www.playhtml.com/OpenWeather/"
       }
    },
    "description": "\u57FA\u4E8E OpenWeatherMap API, \u81EA\u52A8\u83B7\u53D6\u5730\u7406\u4F4D\u7F6E\u663E\u793A\u5F53\u524D\u53CA\u672A\u67656\u5929\u5929\u6C14\u3002 Based on OpenWeatherMap API top show current weather & the forecast for tne next 6 days.",
@@ -11,8 +16,8 @@
       "48": "icon48.png"
    },
    "manifest_version": 2,
-   "name": "OpenWeather Desktop",
+   "name": "OpenWeather",
    "permissions": [ "geolocation" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.1.2"
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
 }
